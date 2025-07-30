@@ -1,7 +1,6 @@
+// src/utils/connectDB.js or similar
 import mongoose from "mongoose";
-import dotenv from "dotenv";
-import { config } from "../config/config.js";
-
+import config from "../config/config.js";
 
 const connectDB = () => {
   mongoose
@@ -14,4 +13,4 @@ const connectDB = () => {
     });
 };
 
-export default connectDB
+export default connectDB;
